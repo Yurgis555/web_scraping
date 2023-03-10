@@ -1,0 +1,13 @@
+Trumpas aprašymas. 
+
+Programa daro informacijos ištraukymą iš saito loto.lt tiražu rezultatus ‘EuroJack Pot’  nurodytu tiražu diapazonu į duomenų bazė.  Iš gautu duomenų atrasta dažniausiai iškritusios numerius sąrašas ir mažiausiai iškritusios sąrašas, gauto tiražu diapazoną. Parodytas grafikas iškritimo kiekis nuo kamuoliuko numerį, tyrimo tiražų diapazoną. Padarytas prognozas sekančiam, už tyrimo diapazono tiražui, naudojant Fibonači seka. Sekos skaičiai  traktuojami kaip žingsnis nuo paskutinio iš diapazono tiražo, todėl pozicijas duomenų bazėje (rowid) atitinka kita seka, gauta iš Fibonači sekos. 
+
+ 
+
+Naudojamos bibliotekos:
+ 
+requests
+BeautifulSoup
+sqlite3
+numpy
+matplotlib
